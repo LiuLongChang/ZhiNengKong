@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ShareConfirmView">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ziliao_tou" translatesAutoresizingMaskIntoConstraints="NO" id="rg6-RW-5k8">
+                    <rect key="frame" x="0.0" y="0.0" width="49.5" height="49.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="49.5" id="AKR-cH-qxy"/>
+                        <constraint firstAttribute="width" secondItem="rg6-RW-5k8" secondAttribute="height" multiplier="1:1" id="QPQ-XE-iPr"/>
+                        <constraint firstAttribute="width" constant="50" id="X4g-4U-BNk"/>
+                        <constraint firstAttribute="width" secondItem="rg6-RW-5k8" secondAttribute="height" multiplier="1:1" id="awG-1J-v4T"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="QPQ-XE-iPr"/>
+                            <exclude reference="awG-1J-v4T"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小新" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LqR-cq-Wtb">
+                    <rect key="frame" x="59" y="7" width="34" height="20.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13678768817" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3b1-PQ-wbd">
+                    <rect key="frame" x="59" y="29" width="93.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.46666666670000001" green="0.51372549020000002" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="给朋友留言" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dLU-7B-bAy">
+                    <rect key="frame" x="0.0" y="59" width="345" height="41"/>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.95294117647058818" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="rg6-RW-5k8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9eB-cB-Mdg"/>
+                <constraint firstItem="dLU-7B-bAy" firstAttribute="top" secondItem="rg6-RW-5k8" secondAttribute="bottom" constant="10" id="Id4-Wp-gTb"/>
+                <constraint firstItem="rg6-RW-5k8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Kts-2a-Zgf"/>
+                <constraint firstItem="LqR-cq-Wtb" firstAttribute="leading" secondItem="3b1-PQ-wbd" secondAttribute="leading" id="O14-kg-muY"/>
+                <constraint firstItem="rg6-RW-5k8" firstAttribute="width" secondItem="rg6-RW-5k8" secondAttribute="height" multiplier="1:1" id="Rb6-Kz-dN6"/>
+                <constraint firstItem="LqR-cq-Wtb" firstAttribute="leading" secondItem="rg6-RW-5k8" secondAttribute="trailing" constant="10" id="STT-MN-sPt"/>
+                <constraint firstItem="dLU-7B-bAy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XPW-ZI-nsG"/>
+                <constraint firstItem="rg6-RW-5k8" firstAttribute="width" secondItem="rg6-RW-5k8" secondAttribute="height" multiplier="1:1" id="XUC-lh-yyr"/>
+                <constraint firstItem="3b1-PQ-wbd" firstAttribute="top" secondItem="LqR-cq-Wtb" secondAttribute="bottom" constant="2" id="etA-AM-xNC"/>
+                <constraint firstAttribute="trailing" secondItem="dLU-7B-bAy" secondAttribute="trailing" id="qQ6-Ec-OdV"/>
+                <constraint firstItem="rg6-RW-5k8" firstAttribute="width" secondItem="rg6-RW-5k8" secondAttribute="height" multiplier="1:1" id="tqZ-hI-MZq"/>
+                <constraint firstItem="LqR-cq-Wtb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="7" id="x8D-P6-Gk1"/>
+                <constraint firstAttribute="bottom" secondItem="dLU-7B-bAy" secondAttribute="bottom" id="zUk-j6-YHh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Rb6-Kz-dN6"/>
+                    <exclude reference="XUC-lh-yyr"/>
+                    <exclude reference="tqZ-hI-MZq"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="headImageView" destination="rg6-RW-5k8" id="JwA-Nb-8dL"/>
+                <outlet property="nameLabel" destination="LqR-cq-Wtb" id="hD2-Ii-JpY"/>
+                <outlet property="phoneLabel" destination="3b1-PQ-wbd" id="bZh-M3-Hmh"/>
+                <outlet property="textField" destination="dLU-7B-bAy" id="3yf-bk-Zmk"/>
+            </connections>
+            <point key="canvasLocation" x="119.5" y="8.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ziliao_tou" width="56" height="56"/>
+    </resources>
+</document>

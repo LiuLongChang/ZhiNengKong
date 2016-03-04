@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C45DDC1F-9DF1-4C26-A358-1F9900B9AFE8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZhiNengKong</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>782637EE64F1CB98B20A8472432B6B7A2AF1862C</key>
+		<string>https://git.oschina.net/xuanyi0627/ZhiNengKong_IOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZhiNengKong/ZhiNengKong.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>782637EE64F1CB98B20A8472432B6B7A2AF1862C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/xuanyi0627/ZhiNengKong_IOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>782637EE64F1CB98B20A8472432B6B7A2AF1862C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>782637EE64F1CB98B20A8472432B6B7A2AF1862C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Code</string>
+		</dict>
+	</array>
+</dict>
+</plist>

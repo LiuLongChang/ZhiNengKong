@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MessageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ziliao_tou" translatesAutoresizingMaskIntoConstraints="NO" id="qhu-Kz-CvK">
+                        <rect key="frame" x="10" y="10.5" width="56" height="56"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="56" id="8u1-zV-VCH"/>
+                            <constraint firstAttribute="width" secondItem="qhu-Kz-CvK" secondAttribute="height" multiplier="1:1" id="Wac-Si-zyw"/>
+                            <constraint firstAttribute="width" secondItem="qhu-Kz-CvK" secondAttribute="height" multiplier="1:1" id="kTh-02-aR9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Wac-Si-zyw"/>
+                                <exclude reference="kTh-02-aR9"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qhu-Kz-CvK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="9kT-TF-Yub"/>
+                    <constraint firstItem="qhu-Kz-CvK" firstAttribute="width" secondItem="qhu-Kz-CvK" secondAttribute="height" multiplier="1:1" id="jyz-gI-m0D"/>
+                    <constraint firstItem="qhu-Kz-CvK" firstAttribute="width" secondItem="qhu-Kz-CvK" secondAttribute="height" multiplier="1:1" id="mdt-2g-fPj"/>
+                    <constraint firstItem="qhu-Kz-CvK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="pLM-Gu-vtH"/>
+                    <constraint firstItem="qhu-Kz-CvK" firstAttribute="width" secondItem="qhu-Kz-CvK" secondAttribute="height" multiplier="1:1" id="vnI-no-Kfg"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="jyz-gI-m0D"/>
+                        <exclude reference="vnI-no-Kfg"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headImageView" destination="qhu-Kz-CvK" id="CTG-nX-5p0"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ziliao_tou" width="56" height="56"/>
+    </resources>
+</document>

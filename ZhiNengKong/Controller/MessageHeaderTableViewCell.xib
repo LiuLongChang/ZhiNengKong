@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MessageHeaderTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRo-RW-EtV">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="49.5"/>
+                        <color key="backgroundColor" red="0.070588235294117646" green="0.2196078431372549" blue="0.40392156862745099" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal" title="消息">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNJ-7r-khk">
+                        <rect key="frame" x="160" y="0.0" width="160" height="49.5"/>
+                        <color key="backgroundColor" red="0.81176470588235294" green="0.83921568627450982" blue="0.87058823529411766" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal" title="遥控器">
+                            <color key="titleColor" red="0.4392156862745098" green="0.49019607843137253" blue="0.55686274509803924" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sNJ-7r-khk" firstAttribute="leading" secondItem="SRo-RW-EtV" secondAttribute="trailing" id="06d-Vy-xo9"/>
+                    <constraint firstItem="SRo-RW-EtV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1aK-I4-kdA"/>
+                    <constraint firstAttribute="bottom" secondItem="sNJ-7r-khk" secondAttribute="bottom" id="BdF-92-Bgq"/>
+                    <constraint firstAttribute="bottom" secondItem="SRo-RW-EtV" secondAttribute="bottom" id="BeG-YH-r5Y"/>
+                    <constraint firstAttribute="trailing" secondItem="sNJ-7r-khk" secondAttribute="trailing" id="ZAL-aT-dUt"/>
+                    <constraint firstItem="SRo-RW-EtV" firstAttribute="width" secondItem="sNJ-7r-khk" secondAttribute="width" id="wJX-Mg-8Qk"/>
+                    <constraint firstItem="sNJ-7r-khk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="y6K-nB-uMU"/>
+                    <constraint firstItem="SRo-RW-EtV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yMY-Kp-Y3t"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="msgButton" destination="SRo-RW-EtV" id="BxI-FF-ucU"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
